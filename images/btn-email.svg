@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="16px" viewBox="0 0 28 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Email Button</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-page" transform="translate(-1319.000000, -285.000000)">
+            <g id="Group-3-Copy-4" transform="translate(1226.000000, 285.000000)">
+                <g id="Group-2">
+                    <g id="Email-Button" transform="translate(93.102041, 0.000000)">
+                        <rect id="Rectangle-21" fill="#B6B6B6" x="0" y="0" width="27.1836735" height="15.4285714" rx="1.78021978"></rect>
+                        <path d="M7.09139308,2.78900918 L7.09139308,12.2835147 L20.0922804,12.2835147 L20.0922804,2.78900918 L7.09139308,2.78900918 L7.09139308,2.78900918 Z M18.5540035,4.03343133 L13.578983,8.07870554 L8.61765418,4.03343133 L18.5540035,4.03343133 L18.5540035,4.03343133 Z M18.8274581,11.0390925 L8.3562154,11.0390925 L8.3562154,5.51672032 L13.5779395,9.77304853 L18.8274581,5.50499164 L18.8274581,11.0390925 L18.8274581,11.0390925 Z" id="email-4-icon" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

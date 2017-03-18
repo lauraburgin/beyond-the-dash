@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Beyond the dash</title>
+		<meta name="description" content="Beyond the dash">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="css/reset.css">
+    	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet"> 
+    	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet"> 
+    	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+    	<link rel="stylesheet" href="css/styles.css">    	
+    	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    	<script type="text/javascript" src="js/javascript.js"></script>
+	</head>
+	<body>	
+		<div class="wrapper">	
+			<input type="checkbox" id="mobile-navigation" />
+			<label for="mobile-navigation">
+				&#9776;
+			</label>
+			<nav class="mobile">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Stories</a></li>
+					<li><a href="#">Learn and prepare</a></li>
+					<li><a href="#">Flowers and gifts</a></li>
+					<li><a href="#">Trending News</a></li>
+					<li><a href="#">Blog</a></li>
+				</ul>
+			</nav>
+			<div class="header-wrapper">
+				<header>			
+					<h2>Beyond the Dash</h2>					
+					<nav class="main">
+						<ul>
+							<li class="no-dropdown active"><a href="index.html">Home</a></li>
+							<li class="dropdown-mainnav">
+								<a class="dropdown-toggle" href="/stories/obituaries/search">Stories
+									<div class="upcaret"></div>
+								</a>
+								<div class="dropdown-menu">								
+									<ul class="sub-menu">
+										<li><a href="#">Today's stories</a></li>
+										<li><a href="#">Yesterday's stories</a></li>
+										<li><a href="#">Browse all stories</a></li>												
+									</ul>							
+								</div>
+							</li>
+							<li class="dropdown-mainnav">
+								<a class="dropdown-toggle" href="#">Learn and prepare
+									<div class="upcaret"></div>
+								</a>
+								<div class="dropdown-menu">								
+									<ul class="sub-menu">
+										<li><a href="#">News articles</a></li>
+										<li><a href="#">Blog posts</a></li>											
+									</ul>							
+								</div>
+							</li>
+							<li class="dropdown-mainnav">
+								<a class="dropdown-toggle" href="#">Flowers and gifts
+									<div class="upcaret"></div>
+								</a>
+								<div class="dropdown-menu">								
+									<ul class="sub-menu">
+										<li><a href="#">Blooms flowers</a></li>
+										<li><a href="#">Petals flower store</a></li>
+										<li><a href="#">Browse flower stores</a></li>												
+									</ul>							
+								</div>
+							</li>
+							<li class="no-dropdown"><a href="#">Trending News</a></li>
+							<li class="no-dropdown"><a href="#">Blog</a></li>
+						</ul>
+					</nav>					
+					<input type="text" placeholder="Search">
+				</header>
+				<div class="overlay"></div>
+			</div>		
+			<div class="content-wrapper">
+				<main>	
+					<div class="hero-image">
+						<div class="hero-half-white-border"></div>
+						<span class="slideshow-title">					
+						Every dash is a story</span>
+						<button class="create-story">Tell their story</button>							
+						<div id="slideshow">					
+						    <div class="slide1"></div>
+						    <div class="slide2"></div>
+						    <div class="slide3"></div>					   
+						</div>				
+					</div>
+
+					<article class="width-25">					
+						<div class="blog-bg blog1-bg"></div>
+						<div class="inner">
+							<span class="article-type">BLOG</span>
+							<h3>5 fresh alternatives to urns</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>	
+							<div class="icons">
+								<img src="images/btn-facebook.svg" alt="Share on Facebook" />
+								<img src="images/btn-twitter.svg" alt="Share on Twitter" />
+								<img src="images/btn-google.svg" alt="Share on Google" />
+								<img src="images/btn-email.svg" alt="Email this article" />		
+								<span class="article-date">Feb 1, 2017</span>
+							</div>
+						</div>				
+					</article>
+					<article class="width-25">
+						<div class="blog-bg blog2-bg"></div>
+						<div class="inner">
+							<span class="article-type">TRENDING NEWS</span>
+							<h3>5 fresh alternatives to urns</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+							<div class="icons">
+								<img src="images/btn-facebook.svg" alt="Share on Facebook" />
+								<img src="images/btn-twitter.svg" alt="Share on Twitter" />
+								<img src="images/btn-google.svg" alt="Share on Google" />
+								<img src="images/btn-email.svg" alt="Email this article" />		
+								<span class="article-date">Feb 11, 2017</span>
+							</div>
+						</div>
+					</article>
+					<article class="width-50">
+						<div class="blog-bg blog3-bg"></div>
+						<div class="inner">
+							<span class="article-type">CELEBRITY DEATHS</span>
+							<h3>Starwars actress, Carry Fisher dies at 60</h3>
+							<p>Vestibulum mattis justo orci, sed posuere risus malesuada a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis, ...</p>
+							<div class="icons">
+								<img src="images/btn-facebook.svg" alt="Share on Facebook" />
+								<img src="images/btn-twitter.svg" alt="Share on Twitter" />
+								<img src="images/btn-google.svg" alt="Share on Google" />
+								<img src="images/btn-email.svg" alt="Email this article" />		
+								<span class="article-date">March 1, 2017</span>
+							</div>
+						</div>
+					</article>
+					<article class="width-25">
+						<div class="blog-bg blog4-bg">
+							<blockquote>
+								<div class="inner">
+									<span class="article-type">BLOG</span>
+									<h3>Introduction to the 5 stages of grief</h3>	
+									<p>Lorem ipsum..</p>
+								</div>
+								<cite>Brigitte Ganger</cite>
+							</blockquote>
+						</div>	
+					</article>
+					<article class="width-25">
+						<div class="blog-bg blog5-bg"></div>
+						<div class="inner">
+							<span class="article-type">NOTABLE DEATHS</span>
+							<h3>Steve Jobs, the man behind apple</h3>
+							<p>Cras non mauris laoreet, efficitur risus id, efficitur mauris.</p>
+							<div class="icons">
+								<img src="images/btn-facebook.svg" alt="Share on Facebook" />
+								<img src="images/btn-twitter.svg" alt="Share on Twitter" />
+								<img src="images/btn-google.svg" alt="Share on Google" />
+								<img src="images/btn-email.svg" alt="Email this article" />		
+								<span class="article-date">Mar 5, 2017</span>
+							</div>
+						</div>
+					</article>				
+					<article class="width-25">				
+						<div class="blog-bg blog6-bg"></div>
+						<div class="inner">
+							<span class="article-type">LEARN & PREPARE</span>
+							<h3>Assisting children through grief</h3>
+							<p>Vestibulum mattis justo orci, sed posuere risus malesuada a.</p>
+							<div class="icons">
+								<img src="images/btn-facebook.svg" alt="Share on Facebook" />
+								<img src="images/btn-twitter.svg" alt="Share on Twitter" />
+								<img src="images/btn-google.svg" alt="Share on Google" />
+								<img src="images/btn-email.svg" alt="Email this article" />		
+								<span class="article-date">Mar 12, 2017</span>
+							</div>
+						</div>			
+					</article>
+					<article class="width-25 inner-adtag funeralhome-search">
+						<a href="http://www.bloomstoday.com"><img src="images/flowers3-300x250.png" alt="Blooms flowers" /></a>
+						<div class="inner">
+							<h3>Find a funeral home</h3>					
+		 					<div class="funeral-home-input">
+								<input type="text" class="fh-button fh-input-box" name="funeral home search" placeholder="search funeral home">
+								<input type="submit" class="fh-button fh-submit" value="SEARCH">
+							</div>	
+						</div>
+					</article>
+					<article class="width-50">
+						<div class="blog-bg blog7-bg"></div>
+						<div class="inner">
+							<span class="article-type">CELEBRITY DEATHS</span>
+							<h3>Poet, musician, sex icon: the full story of Leonard Cohen</h3>
+							<p>Vestibulum mattis justo orci, sed posuere risus malesuada a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis...</p>
+							<div class="icons">
+								<img src="images/btn-facebook.svg" alt="Share on Facebook" />
+								<img src="images/btn-twitter.svg" alt="Share on Twitter" />
+								<img src="images/btn-google.svg" alt="Share on Google" />
+								<img src="images/btn-email.svg" alt="Email this article" />		
+								<span class="article-date">Mar 15, 2017</span>
+							</div>
+						</div>
+					</article>
+					<article class="width-25">
+						<div class="blog-bg blog8-bg"></div>
+						<div class="inner">
+							<span class="article-type">BLOG</span>
+							<h3>Funeral flowers and their meanings</h3>
+							<p>Vestibulum mattis justo orci, sed posuere risus malesuada a.</p>
+							<div class="icons">
+								<img src="images/btn-facebook.svg" alt="Share on Facebook" />
+								<img src="images/btn-twitter.svg" alt="Share on Twitter" />
+								<img src="images/btn-google.svg" alt="Share on Google" />
+								<img src="images/btn-email.svg" alt="Email this article" />		
+								<span class="article-date">Mar 12, 2017</span>
+							</div>
+						</div>						
+					</article>
+					<article class="width-25">
+						<div class="blog-bg blog9-bg"></div>
+						<div class="inner">
+							<span class="article-type">TRENDING NEWS</span>
+							<h3>Do pets grieve?</h3>
+							<p>Vestibulum mattis justo orci, sed posuere risus malesuada a.</p>
+							<div class="icons">
+								<img src="images/btn-facebook.svg" alt="Share on Facebook" />
+								<img src="images/btn-twitter.svg" alt="Share on Twitter" />
+								<img src="images/btn-google.svg" alt="Share on Google" />
+								<img src="images/btn-email.svg" alt="Email this article" />		
+								<span class="article-date">Mar 12, 2017</span>
+							</div>
+						</div>						
+					
+					</article>				
+				</main>
+				<aside class="right-rail">
+					<div class="category">
+						<select name="category">				
+							<option value="" class="option">Category</option>
+							<option value="one">One</option>
+							<option value="two">Two</option>
+							<option value="three">Three</option>
+						 </select>
+					</div>
+					<h3>Inspirational Stories</h3>
+					<div class="article">
+						<img src="images/inspirational-stories1.png" alt="Inspirational story of Martha Miller" />
+						<div class="rightrail-text">
+							Pellentesque id cursus odio. Proin sapien quam...
+							<div class="icons">
+								<img src="images/btn-facebook.svg" alt="Share on Facebook" />
+								<img src="images/btn-twitter.svg" alt="Share on Twitter" />
+								<img src="images/btn-google.svg" alt="Share on Google" />
+								<img src="images/btn-email.svg" alt="Email this article" />		
+							</div>
+						</div>
+					</div>
+					<div class="article">
+						<img src="images/inspirational-stories2.png" alt="Inspirational story of Martha Miller" />
+						<div class="rightrail-text">
+							Pellentesque id cursus odio. Proin sapien quam...
+							<div class="icons">
+								<img src="images/btn-facebook.svg" alt="Share on Facebook" />
+								<img src="images/btn-twitter.svg" alt="Share on Twitter" />
+								<img src="images/btn-google.svg" alt="Share on Google" />
+								<img src="images/btn-email.svg" alt="Email this article" />		
+							</div>
+						</div>	
+					</div>
+					<div class="article">
+						<img src="images/inspirational-stories3.png" alt="Inspirational story of Martha Miller" />
+						<div class="rightrail-text">
+							Pellentesque id cursus odio. Proin sapien quam...
+							<div class="icons">
+								<img src="images/btn-facebook.svg" alt="Share on Facebook" />
+								<img src="images/btn-twitter.svg" alt="Share on Twitter" />
+								<img src="images/btn-google.svg" alt="Share on Google" />
+								<img src="images/btn-email.svg" alt="Email this article" />		
+							</div>
+						</div>	
+					</div>				
+					<div class="past-dash">
+						<h3>Dash from the past</h3>				
+						<div class="past-dash-image">
+							<div class="half-white-border"></div>
+							<span>Died April 21st</span>						
+						</div>					
+					</div>
+					<div class="twitter-feed">
+						<h3>Recent Tweets</h3>				
+						<div class="twitter-inner"><strong>Mary</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod et nisi eget feugiat. Nunc vel sem fermentum, lacinia odio non, <a href="#">efficitur metus</a>. <span class="twitter-date">February 2, 2017</span></div> 
+					</div>				
+					<div class="rightrail-adtag">
+						<img src="images/flowers1-300x250.png" alt="Blooms flowers" />
+					</div>
+					
+					<div class="rightrail-adtag">
+						<img src="images/flowers2-300x250.png" alt="Blooms flowers" />
+					</div>
+					<div class="newsletter-signup">
+						<h3>Newsletter sign up</h3>
+						<div class="signup-inner">					 
+							<form action="#" method="post" name="sign up form">				  
+								<p>Sign up for our newsletter and don't miss out on a news release.</p>						 
+								<div class="input">
+									<input type="text" class="button input-box" id="email" name="email" placeholder="email address">
+									<input type="submit" class="button submit" value="GO">
+								</div>
+							</form>
+						</div>
+					</div>
+				</aside>			
+			</div>
+		</div>
+		<footer>
+			<div class="footer-wrapper">
+				<div class="footer-left">
+					<h4>Beyond the Dash</h4>
+					<span class="copyright">&copy; 2017 AdPerfect</span>
+					<img src="images/footer-icon-fb.png" alt="See us on Facebook" />
+					<img src="images/footer-icon-twitter.png" alt="Find us on Twitter" />
+					<img src="images/footer-icon-google.png" alt="Visit us on Google +" />
+					<img src="images/footer-icon-pinterest.png" alt="See pictures on Pinterest" />
+				</div>
+				<div class="footer-right">
+					<ul>
+						<li class="main-link">People's Stories</li>
+						<li>Recent</li>
+						<li>By name</li>
+						<li>By location</li>
+						<li>By newspaper</li>
+					</ul>
+					<ul>
+						<li class="main-link">Learn and prepare</li>					
+					</ul>
+					<ul>
+						<li class="main-link">Funeral homes</li>
+						<li>Directory</li>				
+					</ul>
+					<ul>
+						<li class="main-link">Flowers and gifts</li>
+						<li>Send flowers and gifts</li>
+						<li>Donate to charity</li>
+					</ul>
+					<ul>
+						<li class="main-link">In the news</li>
+						<li>Celebrity deaths</li>
+						<li>On this day</li>
+						<li>Notable deaths</li>
+					</ul>
+					<ul>
+						<li class="main-link">Blog</li>					
+					</ul>
+				</div>
+				<div class="footer-bottom">
+					<ul>
+						<li>About us</li>
+						<li>News and press</li>
+						<li>Contact us</li>
+						<li>Privacy policy</li>
+						<li>Terms and conditions</li>
+					</ul>
+
+				</div>
+			</div>
+		</footer>	
+	</body>
+</html>

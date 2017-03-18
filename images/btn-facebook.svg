@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="16px" viewBox="0 0 28 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Facebook Button Small</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-page" transform="translate(-1226.000000, -285.000000)">
+            <g id="Group-3-Copy-4" transform="translate(1226.000000, 285.000000)">
+                <g id="Group-2">
+                    <g id="Facebook-Button-Small" transform="translate(0.530612, 0.000000)">
+                        <rect id="Rectangle-41" fill="#3C5A96" x="0" y="0" width="27.1836735" height="15.4285714" rx="1.76326531"></rect>
+                        <path d="M12.3006878,6.07099883 L11.228039,6.07099883 L11.228039,7.6939601 L12.3006878,7.6939601 L12.3006878,12.4615385 L14.3633686,12.4615385 L14.3633686,7.67368057 L15.8024344,7.67368057 L15.9556344,6.07099883 L14.3633686,6.07099883 L14.3633686,5.15807447 C14.3633686,4.78018393 14.4454632,4.63057634 14.8394025,4.63057634 L15.9556096,4.63057634 L15.9556096,2.96703297 L14.5275079,2.96703297 C12.9926735,2.96703297 12.3006878,3.59337075 12.3006878,4.79290473 L12.3006878,6.07099883 L12.3006878,6.07099883 Z" id="facebook-icon-2" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
