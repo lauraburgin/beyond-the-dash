@@ -44,9 +44,13 @@ a, a:hover, a:active {
 }
 
 header  {	
-	margin:0px auto;
+	display:-webkit-box;
+	display:-ms-flexbox;
 	display:flex;	
+	-webkit-box-pack:justify;	
+	-ms-flex-pack:justify;	
 	justify-content:space-between;
+	margin:0px auto;	
 	align-items: center;
 	width: 100%;
 	max-width: 1280px;
@@ -193,16 +197,28 @@ input[type="checkbox"]:checked ~ .content-wrapper, input[type="checkbox"]:checke
 /* content  */
 
 .content-wrapper {
+	display:-webkit-box;
+	display:-ms-flexbox;
 	display:flex;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+	-webkit-box-pack:justify;
+	-ms-flex-pack:justify;
 	justify-content:space-between;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
 	align-items: flex-start;
 	margin-top:90px;
 }
 
 main {		
+	display:-webkit-box;
+	display:-ms-flexbox;
 	display:flex;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+	-webkit-box-pack:justify;
+	-ms-flex-pack:justify;
 	justify-content:space-between;	
 	width: 75%;		
 }
@@ -323,7 +339,9 @@ main .inner {
 	color: #737373;
 	letter-spacing: 1px;
 	text-indent: 5%;
-	border-radius: 2px;
+	-webkit-border-radius: 2px;   
+	-moz-border-radius: 2px; 
+	border-radius: 2px; 
 }
 
 .fh-submit {
@@ -333,7 +351,9 @@ main .inner {
 	font-weight: bold;
 	color:#fff;
 	letter-spacing: 1px;
-	border-radius: 2px;
+	-webkit-border-radius: 2px;   
+	-moz-border-radius: 2px; 
+	border-radius: 2px; 
 	cursor: pointer;
 	transition: background .3s ease-in-out;
 	margin-top: 25px;
@@ -502,8 +522,12 @@ select {
 /* RIGHTRAIL inspirational stories */
 
 .right-rail article {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: flex-start;	
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;		
 	margin-bottom: 32px;
 }
 
@@ -605,7 +629,11 @@ select {
 }
 
 .input {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 }
 
@@ -621,6 +649,8 @@ select {
 	color: #737373;
 	letter-spacing: 1px;
 	text-indent: 5%;
+	-webkit-border-radius: 2px 0 0 2px;
+	-moz-border-radius: 2px 0 0 2px;
 	border-radius: 2px 0 0 2px;
 }
 
@@ -631,6 +661,8 @@ select {
 	font-weight: bold;
 	color:#fff;
 	letter-spacing: 1px;
+	-webkit-border-radius: 0 2px 2px 0;
+	-moz-border-radius: 0 2px 2px 0;
 	border-radius: 0 2px 2px 0;
 	cursor: pointer;
 	transition: background .3s ease-in-out;
@@ -649,7 +681,10 @@ footer {
 }
 
 .footer-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	width: 100%;
 	max-width: 1280px;
@@ -662,7 +697,10 @@ footer {
 }
 
 .footer-right {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	width: 78%;
 }
@@ -690,12 +728,17 @@ footer li {
 	width: 100%;
 }
 
-.footer-bottom ul {
-	width: 100%;
-    display: flex;
+.footer-bottom ul {	
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;    
-    justify-content: flex-end;
-    text-align:right;
+	-webkit-box-pack: end;    
+	-ms-flex-pack: end;    
+	justify-content: flex-end;
+	width: 100%;
+	text-align:right;
 }
 
 .footer-bottom li {
@@ -796,7 +839,9 @@ footer img {
 	color: #ffffff;
 	padding: 10px 35px;
 	border: 0px;
-	border-radius:1px;
+	-webkit-border-radius: 1px;   
+	-moz-border-radius: 1px; 
+	border-radius: 1px; 
 	position:absolute;
 	top: 260px;
 	right: 65px;
